@@ -28,3 +28,22 @@ print("User Rating:\(Userrating)")
 print("Updated Current Version:\(CurrentVersion)")
 print("Updated Number of Downloads:\(Numberofdownloads)")
 print("Updated User Rating:\(Userrating)")
+var Recommendation:String
+
+//Recommendation 
+if Userrating>=4.5 {
+    Recommendation="Highly Recommended"
+}
+else if Userrating>=3.5 {
+Recommendation="Recommended"
+}
+else if Userrating>=2.5 {
+    Recommendation="Moderately Recommended"
+    }
+    else {
+        Recommendation="Not Recommended"
+        }
+print("Recommendation:\(Recommendation)")
+
+
+
